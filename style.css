@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+header, footer {
+    height: 10rem;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex; 
+    flex-direction: column;
+}
+
+#library {
+    display: flex;
+    flex-direction: row;
+}
+
+#card {
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 1rem;
+}
